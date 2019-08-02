@@ -83,6 +83,10 @@ body {
     padding-bottom: 10px !important;
 }
 
+#mainContent .container .section1 .row div img {
+    width: 60px;
+}
+
 #mainContent .container .section1 .row div:nth-child(2) {
     border-left: 1px solid #bbbbbb;
     border-right: 1px solid #bbbbbb;
