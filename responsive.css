@@ -20,9 +20,16 @@
         text-align: center;
     }
 
+    #mainContent .container .section1 .row div img {
+        width: 60px;
+        margin: 0 auto;
+    }
+
     #mainContent .container .section1 .row div:nth-child(2) {
         border: 0;
     }
+
+
 }
 
 @media (max-width: 480px) {
