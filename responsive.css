@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .menuDiv {
+        display: none;
+    }
+   
+    #navigation .container .imgDiv img {
+        border-left: 20px solid #ffffff;
+        max-height: 70px;
+    }
+
+    #footer ul {
+        padding-left: 0;
+    }
+    
+    #footer ul > li, #footer .copyRight {
+        text-align: center;
+    }
+
+    #mainContent .container .section1 .row {
+        text-align: center;
+    }
+
+    #mainContent .container .section1 .row div:nth-child(2) {
+        border: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    #mainContent .section2 img {
+        height: 150px;
+    }
+}
